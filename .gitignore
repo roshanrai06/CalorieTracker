@@ -103,3 +103,5 @@ local.properties
 /buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i
 /buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i.len
 /buildSrc/build/classes/kotlin/main/Testing.class
+/buildSrc/build/libs/buildSrc.jar
+/buildSrc/build/source-roots/buildSrc/source-roots.txt
