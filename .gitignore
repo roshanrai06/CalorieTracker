@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+/buildSrc/build/kotlin/buildSrcjar-classes.txt
+/buildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties
+/buildSrc/build/reports/plugin-development/validation-report.txt
