@@ -2,8 +2,9 @@ package com.roshan.onboarding_domain.use_case
 
 import com.roshan.core.util.UiText
 import com.roshan.onboarding_domain.R
+import javax.inject.Inject
 
-class ValidateNutrientsUseCase {
+class ValidateNutrientsUseCase @Inject constructor() {
 
     operator fun invoke(
         carbsRatioText: String,
