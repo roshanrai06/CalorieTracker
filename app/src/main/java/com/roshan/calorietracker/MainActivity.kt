@@ -13,6 +13,7 @@ import androidx.navigation.compose.rememberNavController
 import com.roshan.calorietracker.navigation.navigate
 import com.roshan.calorietracker.ui.theme.CalorieTrackerTheme
 import com.roshan.core.navigation.Route
+import com.roshan.onboarding_presentation.activity.ActivityScreen
 import com.roshan.onboarding_presentation.age.AgeScreen
 import com.roshan.onboarding_presentation.gender.Gender
 import com.roshan.onboarding_presentation.height.HeightScreen
@@ -49,7 +50,7 @@ class MainActivity : ComponentActivity() {
 
                         }
                         composable(Route.ACTIVITY) {
-
+                            ActivityScreen(onNavigate = navController::navigate)
                         }
                         composable(Route.GOAL) {
 
