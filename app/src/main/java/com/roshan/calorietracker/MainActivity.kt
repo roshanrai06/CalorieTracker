@@ -16,6 +16,7 @@ import com.roshan.core.navigation.Route
 import com.roshan.onboarding_presentation.activity.ActivityScreen
 import com.roshan.onboarding_presentation.age.AgeScreen
 import com.roshan.onboarding_presentation.gender.Gender
+import com.roshan.onboarding_presentation.goal.GoalScreen
 import com.roshan.onboarding_presentation.height.HeightScreen
 import com.roshan.onboarding_presentation.weight.WeightScreen
 import com.roshan.onboarding_presentation.welcome.WelcomeScreen
@@ -53,7 +54,7 @@ class MainActivity : ComponentActivity() {
                             ActivityScreen(onNavigate = navController::navigate)
                         }
                         composable(Route.GOAL) {
-
+                            GoalScreen(onNavigate = navController::navigate)
                         }
                         composable(Route.TRACKER_OVERVIEW) {
 
