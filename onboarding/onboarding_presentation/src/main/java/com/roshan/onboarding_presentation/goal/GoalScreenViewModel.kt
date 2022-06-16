@@ -5,7 +5,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.roshan.core.domain.model.ActivityLevel
 import com.roshan.core.domain.model.GoalType
 import com.roshan.core.domain.preferences.Preferences
 import com.roshan.core.navigation.Route

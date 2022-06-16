@@ -11,7 +11,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.roshan.core.domain.model.ActivityLevel
 import com.roshan.core.domain.model.GoalType
 import com.roshan.core.util.UiEvent
 import com.roshan.core_ui.LocalSpacing
