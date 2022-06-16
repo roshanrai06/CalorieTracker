@@ -26,7 +26,7 @@ fun WelcomeScreen(onNavigate: (UiEvent.Navigate) -> Unit) {
     ) {
         Text(
             text = stringResource(id = R.string.welcome_text),
-             textAlign = TextAlign.Center, style = MaterialTheme.typography.h1
+            textAlign = TextAlign.Center, style = MaterialTheme.typography.h1
         )
         Spacer(modifier = Modifier.height(spacing.spaceMedium))
         ActionButton(
