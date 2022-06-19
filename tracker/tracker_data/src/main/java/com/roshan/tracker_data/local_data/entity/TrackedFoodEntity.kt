@@ -1,4 +1,4 @@
-package com.roshan.local_data.entity
+package com.roshan.tracker_data.local_data.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -1,4 +1,4 @@
-package com.roshan.remote.dto
+package com.roshan.tracker_data.remote.dto
 
 import com.squareup.moshi.Json
 

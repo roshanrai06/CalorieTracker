@@ -1,7 +1,7 @@
-package com.roshan.local_data
+package com.roshan.tracker_data.local_data
 
 import androidx.room.*
-import com.roshan.local_data.entity.TrackedFoodEntity
+import com.roshan.tracker_data.local_data.entity.TrackedFoodEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

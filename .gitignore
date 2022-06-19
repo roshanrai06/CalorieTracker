@@ -106,3 +106,4 @@ local.properties
 /buildSrc/build/libs/buildSrc.jar
 /buildSrc/build/source-roots/buildSrc/source-roots.txt
 /buildSrc/build/tmp/jar/MANIFEST.MF
+/buildSrc/build/classes/kotlin/main/Coroutines.class
