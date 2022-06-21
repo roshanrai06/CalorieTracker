@@ -25,6 +25,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.roshan.core_ui.LocalSpacing
 import com.roshan.tracker_presentation.R
@@ -54,8 +55,9 @@ fun SearchTextField(
                 }
             ),
             keyboardOptions = KeyboardOptions(
-                imeAction = ImeAction.Search
-            ),
+                imeAction = ImeAction.Search,
+
+                ),
             modifier = Modifier
                 .clip(RoundedCornerShape(5.dp))
                 .padding(2.dp)
@@ -69,7 +71,7 @@ fun SearchTextField(
                 .padding(end = spacing.spaceMedium)
                 .onFocusChanged { onFocusChanged(it) }
         )
-        if(shouldShowHint) {
+        if (shouldShowHint) {
             Text(
                 text = hint,
                 style = MaterialTheme.typography.body1,
