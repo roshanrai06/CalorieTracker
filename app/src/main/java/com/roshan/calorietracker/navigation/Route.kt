@@ -1,4 +1,4 @@
-package com.roshan.core.navigation
+package com.roshan.calorietracker.navigation
 
 object Route {
     const val WELCOME = "welcome"
