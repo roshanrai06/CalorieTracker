@@ -58,6 +58,7 @@ class TrackerOverviewViewModel @Inject constructor(
                 )
             }
         }
+
     }
 
     private fun refreshFoods() {
